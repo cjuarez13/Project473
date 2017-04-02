@@ -1,0 +1,42 @@
+{
+  "commentsArray": [
+    {
+      "parent": "",
+      "created": "2017-04-02T07:26:31.620Z",
+      "modified": "2017-04-02T07:26:31.620Z",
+      "content": "you suck",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "stevesagget",
+      "id": 1
+    },
+    {
+      "parent": "",
+      "created": "2017-04-02T07:26:54.398Z",
+      "modified": "2017-04-02T07:26:54.398Z",
+      "content": "You cant act",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "StevenSegal",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "firstName": "steve",
+      "lastName": "sagget",
+      "id": "stevesagget"
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "Segal",
+      "id": "StevenSegal"
+    }
+  ]
+}
