@@ -2,6 +2,8 @@
     'use strict';
     var App = window.App || {};
     var $ = window.jQuery;
+    var DB_SERVER_URL = 'http://localhost:3002/';
+    var SERVER_URL = 'http://localhost:3000/';
 
 
     function FormHandler(selector) {
@@ -27,15 +29,16 @@
             var fullname = data.firstName + data.lastName;
             data.id = fullname;
 
-            $.get('http://localhost:3002/posts/' + data.id).then(function() {
+            $.get(DB_SERVER_URL + 'posts/' + data.id).then(function() {
                 console.log(' exist');
                 $('#form-error').text("This Boss Already Exists").css('color', 'red');
+                //window.location.replace(SERVER_URL + 'comment.html')
             }, function() {
                 console.log('dont exist');
                 $('#form-error').text("success").css('color', 'green');
-                $.post('http://localhost:3002/posts/', data);
+                $.post(DB_SERVER_URL + 'posts/', data);
                 $.cookie("id", data.id);
-                window.location.replace("http://localhost:3000/comment.html")
+                window.location.replace(SERVER_URL + 'comment.html')
             });
         });
 

@@ -18,34 +18,35 @@
 </header>
 
 <body>
-  <div class="container">
-    <ul class="nav nav-tabs">
-        <li role="presentation"><a href="index.html">Home</a></li>
-        <li role="presentation" class="active"><a href="#">Add a Boss</a></li>
-        <li role="presentation"><a href="comment.html">Find Your Boss</a></li>
-    </ul>
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <h2 class="text-center">Type Your Boss's Name</h2>
-            <span id="form-error"></span>
-            <form data-boss="form">
-                <div class="form-group">
-                    <label for="boss-first">First Name</label>
-                    <input type="text" id="boss-first" class="form-control input-lg" name="firstName" value="" placeholder="First Name" required pattern="[a-zA-Z\s]+" autofocus />
-                </div>
-                <div class="form-group">
-                    <label for="boss-last">Last Name</label>
-                    <input type="text" id="boss-last" class="form-control input-lg" name="lastName" value="" placeholder="Last Name" required pattern="[a-zA-Z\s]+" />
-                </div>
-                <button type="submit" class="btn btn-primary btn-lg btn-block">Start Snarking</button>
-            </form>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation" class="active"><a href="#">Add a Boss</a></li>
+            <li role="presentation"><a href="comment.html">Find Your Boss</a></li>
+        </ul>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2 class="text-center">Type Your Boss's Name</h2>
+                <span id="form-error"></span>
+                <form data-boss="form">
+                    <div class="form-group">
+                        <label for="boss-first">First Name</label>
+                        <input type="text" id="boss-first" class="form-control input-lg" name="firstName" value="" placeholder="First Name" required pattern="[a-zA-Z\s]+" autofocus />
+                    </div>
+                    <div class="form-group">
+                        <label for="boss-last">Last Name</label>
+                        <input type="text" id="boss-last" class="form-control input-lg" name="lastName" value="" placeholder="Last Name" required pattern="[a-zA-Z\s]+" />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Start Snarking</button>
+                </form>
+            </div>
         </div>
     </div>
-  </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
 <script src="js/jquery.cookie.js"></script>
 <script src="scripts/formhandler.js" charset="utf-8"></script>
 <script src="scripts/mainform.js" charset="utf-8"></script>
+
 
 </html>
