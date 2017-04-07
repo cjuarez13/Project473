@@ -4,6 +4,8 @@
 
 3. move javascript in comments.html to external scripts/.js file
 
-4. documentation
+4. add 'company' field to Add Your Boss page
 
-5. visual improvements
+5. documentation
+
+6. visual improvements
