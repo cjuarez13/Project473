@@ -33,13 +33,15 @@
                 console.log(' exist');
                 $('#form-error').text("This Boss Already Exists").css('color', 'red');
                 $.cookie("id", data.id);
-                window.location.replace(SERVER_URL + 'comment.html')
+                setTimeout(function() {
+                    window.location.replace(SERVER_URL + 'comment.html');
+                }, 1000);
             }, function() {
                 console.log('dont exist');
                 $('#form-error').text("success").css('color', 'green');
                 $.post(DB_SERVER_URL + 'posts/', data);
                 $.cookie("id", data.id);
-                window.location.replace(SERVER_URL + 'comment.html')
+                window.location.replace(SERVER_URL + 'comment.html');
             });
         });
 
