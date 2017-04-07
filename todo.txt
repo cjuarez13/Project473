@@ -2,10 +2,8 @@
 
 2. on "add your boss" page: if boss is already in DB, load that boss
 
-3. move javascript in comments.html to external scripts/.js file
+3. add 'company' field to Add Your Boss page
 
-4. add 'company' field to Add Your Boss page
+4. documentation
 
-5. documentation
-
-6. visual improvements
+5. visual improvements

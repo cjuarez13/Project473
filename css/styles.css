@@ -1,33 +1,30 @@
-
 * {
-  font-family : 'Oswald', sans-serif;
-  line-height: 2;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2;
 }
 
 .form-control {
-  height: 50px;
+    height: 50px;
 }
 
-#dropdown{
-  font-family : 'Oswald', sans-serif;
-  font-size: 25px;
-  display: flex;
+#dropdown {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: flex;
 }
 
-body .jumbotron{
-  background: #ebca70;
-  margin-bottom: 1%;
+body .jumbotron {
+    background: #ebca70;
+    margin-bottom: 1%;
 }
 
-header .jumbotron{
-  /*background: linear-gradient(to bottom,  rgb(102, 179, 255), rgb(204, 229, 255));*/
-/*Standard*/
-background-position: center;
-background-size: cover;
-background-image: url('../img/header.jpg');
-color: white;
+header .jumbotron {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/header.jpg');
+    color: white;
 }
 
 #chooseBoss {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
