@@ -25,6 +25,19 @@
       "user_has_upvoted": "false",
       "postId": "StevenSegal",
       "id": 2
+    },
+    {
+      "parent": "",
+      "created": "2017-04-07T05:14:51.125Z",
+      "modified": "2017-04-07T05:14:51.125Z",
+      "content": "not too bad",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "worstboss",
+      "id": 3
     }
   ],
   "posts": [

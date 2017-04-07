@@ -7,5 +7,3 @@
 4. documentation
 
 5. visual improvements
-
-6. create global variable for server url so we only have to type it in one place
