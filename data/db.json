@@ -64,6 +64,19 @@
       "user_has_upvoted": "false",
       "postId": "stevejobs",
       "id": 5
+    },
+    {
+      "parent": "",
+      "created": "2017-04-07T23:30:44.087Z",
+      "modified": "2017-04-07T23:30:44.087Z",
+      "content": "best",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "bestboss",
+      "id": 6
     }
   ],
   "posts": [
