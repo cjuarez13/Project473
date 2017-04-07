@@ -13,11 +13,6 @@
     display: flex;
 }
 
-body .jumbotron {
-    background: #ebca70;
-    margin-bottom: 1%;
-}
-
 header .jumbotron {
     background-position: center;
     background-size: cover;
