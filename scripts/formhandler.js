@@ -32,7 +32,8 @@
             $.get(DB_SERVER_URL + 'posts/' + data.id).then(function() {
                 console.log(' exist');
                 $('#form-error').text("This Boss Already Exists").css('color', 'red');
-                //window.location.replace(SERVER_URL + 'comment.html')
+                $.cookie("id", data.id);
+                window.location.replace(SERVER_URL + 'comment.html')
             }, function() {
                 console.log('dont exist');
                 $('#form-error').text("success").css('color', 'green');

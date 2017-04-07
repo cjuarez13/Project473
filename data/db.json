@@ -38,6 +38,32 @@
       "user_has_upvoted": "false",
       "postId": "worstboss",
       "id": 3
+    },
+    {
+      "parent": "",
+      "created": "2017-04-07T07:32:34.704Z",
+      "modified": "2017-04-07T07:32:34.704Z",
+      "content": "love windows",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "billgates",
+      "id": 4
+    },
+    {
+      "parent": "",
+      "created": "2017-04-07T07:32:50.315Z",
+      "modified": "2017-04-07T07:32:50.315Z",
+      "content": "apples",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "stevejobs",
+      "id": 5
     }
   ],
   "posts": [
@@ -75,6 +101,11 @@
       "firstName": "steve",
       "lastName": "jobs",
       "id": "stevejobs"
+    },
+    {
+      "firstName": "New",
+      "lastName": "boss",
+      "id": "Newboss"
     }
   ]
 }
