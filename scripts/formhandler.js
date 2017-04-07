@@ -11,7 +11,7 @@
         console.log(selector);
         this.$formElement = $(selector);
         if (this.$formElement.length === 0) {
-            throw new Error('Could not find elemnt with selector: ' + selector);
+            throw new Error('Could not find element with selector: ' + selector);
         }
     }
 
