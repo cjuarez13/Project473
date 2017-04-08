@@ -77,6 +77,19 @@
       "user_has_upvoted": "false",
       "postId": "bestboss",
       "id": 6
+    },
+    {
+      "parent": "",
+      "created": "2017-04-08T00:49:59.903Z",
+      "modified": "2017-04-08T00:49:59.903Z",
+      "content": "hi",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "bestboss",
+      "id": 7
     }
   ],
   "posts": [
@@ -119,6 +132,11 @@
       "firstName": "New",
       "lastName": "boss",
       "id": "Newboss"
+    },
+    {
+      "firstName": "newer",
+      "lastName": "boss",
+      "id": "newerboss"
     }
   ]
 }

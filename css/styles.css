@@ -7,10 +7,10 @@
     height: 50px;
 }
 
-#dropdown {
+.ui-widget {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
-    display: flex;
+    /*display: flex;*/
 }
 
 header .jumbotron {

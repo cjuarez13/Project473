@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery-comments.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
 	<link rel="stylesheet" href="/css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
@@ -43,11 +45,15 @@
 			<li role="presentation" class="active"><a href="#">Find Your Boss</a></li>
 		</ul>
 		<div class="container" id="chooseBoss">
-			<h1 id="bossname" class="text-center">Snarking on </h1>
+			<h1 id="bossname" class="text-center"></h1>
 			<h3>Find Your Boss:</h3>
-			<select class="form-control" id="dropdown" onchange="changeBoss(this.value)">
-		</select>
+			<!-- <select class="form-control" id="dropdown" onchange="changeBoss(this.value)">
+		</select> -->
+			<div class="ui-widget">
+				<input id="tags">
+			</div>
 		</div>
+
 		<div id="comments-container"></div>
 	</div>
 </body>
