@@ -99,7 +99,9 @@ $(function() {
         });
     });
 
-    console.log(bossArray);
+    //code for sorting bossArray should go here
+
+    console.log(bossArray.id);
     $("#tags").autocomplete({
         source: bossArray,
         select: function(event, ui) {

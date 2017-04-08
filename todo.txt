@@ -1,7 +1,9 @@
-1. add autocomplete input field for "find a boss"
+1. sort bossArray in loadcomments.js
 
-2. add 'company' field to Add Your Boss page
+2. enable replys?
 
-3. documentation
+3. add 'company' field to Add Your Boss page?
 
-4. visual improvements
+4. documentation
+
+5. visual improvements
