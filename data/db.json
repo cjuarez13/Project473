@@ -90,6 +90,32 @@
       "user_has_upvoted": "false",
       "postId": "bestboss",
       "id": 7
+    },
+    {
+      "parent": "",
+      "created": "2017-04-09T00:51:59.802Z",
+      "modified": "2017-04-09T00:51:59.802Z",
+      "content": "first",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "firstboss",
+      "id": 8
+    },
+    {
+      "parent": "",
+      "created": "2017-04-09T00:52:15.878Z",
+      "modified": "2017-04-09T00:52:15.878Z",
+      "content": "new",
+      "fullname": "Anonymous",
+      "profile_picture_url": "https://viima-app.s3.amazonaws.com/media/user_profiles/user-icon.png",
+      "created_by_current_user": "true",
+      "upvote_count": "0",
+      "user_has_upvoted": "false",
+      "postId": "Newboss",
+      "id": 9
     }
   ],
   "posts": [
@@ -137,6 +163,11 @@
       "firstName": "newer",
       "lastName": "boss",
       "id": "newerboss"
+    },
+    {
+      "firstName": "first",
+      "lastName": "boss",
+      "id": "firstboss"
     }
   ]
 }

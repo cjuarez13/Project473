@@ -3,16 +3,6 @@
     line-height: 2;
 }
 
-.form-control {
-    height: 50px;
-}
-
-.ui-widget {
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    /*display: flex;*/
-}
-
 header .jumbotron {
     background-position: center;
     background-size: cover;
@@ -23,3 +13,16 @@ header .jumbotron {
 #chooseBoss {
     padding-bottom: 10px;
 }
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 100px;
+  }
