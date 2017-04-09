@@ -1,9 +1,7 @@
-1. sort bossArray in loadcomments.js
+1. enable replys
 
-2. enable replys?
+2. add 'company' field to Add Your Boss page?
 
-3. add 'company' field to Add Your Boss page?
+3. documentation
 
-4. documentation
-
-5. visual improvements
+4. visual improvements

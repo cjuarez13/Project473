@@ -83,25 +83,34 @@ $(function() {
     getIDComments();
     bossName();
 
-    var bossArray = [];
+    var bossArray = []; //autocomplete input field source
 
+    //populate bossArray with names and id of all bosses
     $.get(SERVER_URL + '/posts/', function(response) {
-        $.each(response, function(key, value) {
-            var id = this.id;
-            var first = this.firstName;
-            var last = this.lastName;
+        for (var i = 0; i < response.length; i++) {
+            var first = response[i].firstName;
+            var last = response[i].lastName;
             first = first.charAt(0).toUpperCase() + first.substr(1).toLowerCase();
             last = last.charAt(0).toUpperCase() + last.substr(1).toLowerCase();
             bossArray.push({
                 value: first + ' ' + last,
-                id: id
-            });
-        });
+                id: response[i].id
+            })
+        }
+
+        //sort the array alphabetically by id
+        bossArray.sort(function(a, b) {
+            var nameA = a.id.toLowerCase(),
+                nameB = b.id.toLowerCase()
+            if (nameA < nameB) //sort string ascending
+                return -1
+            if (nameA > nameB)
+                return 1
+            return 0 //default return value (no sorting)
+        })
     });
 
-    //code for sorting bossArray should go here
-
-    console.log(bossArray.id);
+    //jquery-ui autocomplete input field
     $("#tags").autocomplete({
         source: bossArray,
         select: function(event, ui) {
