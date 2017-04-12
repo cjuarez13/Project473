@@ -7,7 +7,7 @@ bootstrap
 https://www.pexels.com/photo/access-adult-blur-business-261628/'
 
 
-
+---------------------------------------------------------------------------------------------------
 
 Setup Instructions for Snark-A-Boss:
 
