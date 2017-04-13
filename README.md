@@ -16,8 +16,8 @@ https://www.pexels.com/photo/access-adult-blur-business-261628/
 # Contributors:
 
 - Luis Covarrubias
-- Francis
-- Kim Phung
+- Francis Arocha
+- Kim Phung Tran
 - Crystal Juarez
 - Roya 
 - Andrew Michel
@@ -76,11 +76,6 @@ To run automation tool for web development, run the following command:
 # Using the Web App
 
 -  In the initial home page, "Find your boss" and "Add your boss" options will be available
-
-
-
-
-
 
     - Find your boss
         - In the initial home page, click on "Find your boss". This will lead you to the "Find your boss" tab. From here you will be able to navigate to "Home" or "Add your boss"
