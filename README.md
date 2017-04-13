@@ -48,13 +48,13 @@ Install the following tools on your computer before running the application
 - Node.js (Download at https://nodejs.org/en/)
      - Installing browser-sync: Open up a command prompt and run the following on the command line:
          
-          *npm install -g browser-sync
+               npm install -g browser-sync
  
         *You will need superuser privileges when running this command*
  - json-server
      - From the command line, install the json-server tool with
           
-          npm install -g json-server
+               npm install -g json-server
 
  - Download Project473 onto your computer
         
