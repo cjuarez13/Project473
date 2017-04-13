@@ -19,7 +19,7 @@ https://www.pexels.com/photo/access-adult-blur-business-261628/
 - Francis Arocha
 - Kim Phung Tran
 - Crystal Juarez
-- Roya 
+- Roya Askari
 - Andrew Michel
 
 # Project Scope
@@ -50,7 +50,11 @@ Install the following tools on your computer before running the application
          
           *npm install -g browser-sync
  
-        *You will need superuser privileges when running this command
+        *You will need superuser privileges when running this command*
+ - json-server
+     - From the command line, install the json-server tool with
+          
+          npm install -g json-server
 
  - Download Project473 onto your computer
         
