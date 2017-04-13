@@ -1,5 +1,6 @@
 # Project473: Snark-A-Boss
 
+
 # Credits
 
 jquery-comments: https://github.com/Viima/jquery-comments
@@ -12,7 +13,7 @@ Theme:
 * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
 https://www.pexels.com/photo/access-adult-blur-business-261628/
 
----------------------------------------------------------------------------------------------------
+
 # Contributors:
 
 - Luis Covarrubias
